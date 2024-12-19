@@ -1,0 +1,15 @@
+user:
+  name: cevilion 
+  github: incredaimaso
+
+language: "python"
+
+commands:
+  build:
+    - "pip3 install -r requirements.txt"
+  package:
+    - "nano inxi"
+  start:
+    - "python3 -m bot"
+  env:
+  - "ENVIRONMENT=production"
