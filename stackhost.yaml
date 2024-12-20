@@ -1,16 +1,18 @@
 user:
-  name: cevilion 
+  name: cevilion
   github: incredaimaso
 
 language: "python"
+python_version: "3.10"
 
 commands:
   build:
     - "pip3 install -r requirements.txt"
     - "pip3 install ffmpeg-python"
+    - "sudo apt-get update -y && sudo apt-get install -y python3.10 ffmpeg mediainfo"
   package:
     - "nano inxi"
   start:
-    - "python3 -m bot"
+    - "python3.10 -m bot" 
   env:
-  - "ENVIRONMENT=production"
+    - "ENVIRONMENT=production"
