@@ -15,3 +15,7 @@ commands:
     - "python3.10 -m bot"
   env:
     - "ENVIRONMENT=production"
+    - "APP_ID=22403100"
+    - "API_HASH=ccbc3f662735abfa604ef6309ba76e67"
+    - "BOT_TOKEN=7618049974:AAFieXJegHoOThNX8b0WUlEXEomP6bf_xOQ"
+    - "OWNER=6894836133"
