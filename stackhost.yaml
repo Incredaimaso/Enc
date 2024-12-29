@@ -13,6 +13,7 @@ commands:
     - "nano inxi"
     - "ffmpeg"
   start:
-    - "python3.10 -m bot"
+    - "docker build . -t enc"
+    - "
   env:
     - "ENVIRONMENT=production"
