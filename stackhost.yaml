@@ -9,6 +9,7 @@ commands:
     - "pip3 install -r requirements.txt"
     - "pip3 install ffmpeg-python lxml[html_clean]"
     - "sudo apt-get update -y && sudo apt-get install -y python3.10 ffmpeg mediainfo"
+    - "chmod +x run.sh"
   package:
     - "nano inxi"
     - "python3"
