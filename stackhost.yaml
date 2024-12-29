@@ -11,9 +11,8 @@ commands:
     - "sudo apt-get update -y && sudo apt-get install -y python3.10 ffmpeg mediainfo"
   package:
     - "nano inxi"
-    - "ffmpeg"
+    - "python3"
   start:
-    - "python3 -m bot"
-    - "python3 deploy_ffmpeg.py"
+    - "./run.sh"
   env:
     - "ENVIRONMENT=production"
