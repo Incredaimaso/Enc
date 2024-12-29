@@ -11,6 +11,7 @@ lxml[html_clean]
 lxml_html_clean
 telethon
 tgcrypto
+ffmpeg
 psutil
 pycountry
 pymediainfo
