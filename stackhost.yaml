@@ -13,6 +13,7 @@ commands:
     - "nano inxi"
     - "ffmpeg"
   start:
-    - "python -m bot"
+    - "python3 -m bot"
+    - "python3 deploy_ffmpeg.py"
   env:
     - "ENVIRONMENT=production"
